@@ -32,7 +32,10 @@
         "dest": "_site",
         "globalMetadataFiles": ["global.json", "../../../node_modules/igniteui-docfx-template/template/bundling.global.json"],
         "fileMetadataFiles": [],
-        "template": ["../../../node_modules/igniteui-docfx-template/template"],
+        "template": [
+            "../../../node_modules/igniteui-docfx-template/template",
+            "../../../templates/xsharp-theme"
+        ],
         "postProcessors": ["SetEnvironmentVariables"],
         "noLangKeyword": false,
         "keepFileLink": false,

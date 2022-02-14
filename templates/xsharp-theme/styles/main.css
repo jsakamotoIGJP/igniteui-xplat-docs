@@ -1,0 +1,14 @@
+/* https://dotnet.github.io/docfx/tutorial/walkthrough/advanced_walkthrough.html */
+
+.table th {
+    /* background: rgba(0,0,0,.2); */
+    background: orange;
+    /* color: #333; */
+    font-weight: 500;
+    text-transform: initial;
+}
+
+.table th    { color: red !important; }
+table th    { color: green !important; }
+.table td    { color: purple !important; }
+table td    { color: green !important; }
